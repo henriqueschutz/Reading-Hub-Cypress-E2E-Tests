@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/henriqueschutz/hub-de-leitura-teste-UI#readme",
   "dependencies": {
+    "@faker-js/faker": "^10.6.0",
     "cypress": "^16.1.0"
   }
 }
