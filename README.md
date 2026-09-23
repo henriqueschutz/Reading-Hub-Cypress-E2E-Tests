@@ -33,8 +33,6 @@ This is a QA portfolio project that uses Cypress to test real user journeys in a
 - Submit a valid message and check the success alert.
 - Check validation when name, email, or message is missing.
 
-> **Current test status:** The tests exercise browser interactions and check the resulting behavior. The suite is in progress: `catalogo.cy.js` contains an `it.only` and an `it.skip`, so its scenarios do not all run together yet.
-
 ### Project structure
 
 ```text
@@ -168,8 +166,6 @@ Testes automatizados de ponta a ponta para um hub de leitura. Este repositório 
 
 - Enviar uma mensagem válida e conferir o alerta de sucesso.
 - Conferir as validações quando nome, e-mail ou mensagem estão vazios.
-
-> **Estado atual:** Os testes interagem com a interface no navegador e conferem o resultado na página. A suíte está em desenvolvimento: `catalogo.cy.js` contém um `it.only` e um `it.skip`, então nem todos os cenários do catálogo rodam juntos por enquanto.
 
 ### Estrutura do projeto
 
