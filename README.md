@@ -6,8 +6,6 @@
 
 Automated end-to-end tests for a reading hub. This repository brings the educational Hub de Leitura application together with a Cypress test suite covering registration, the book catalog, the basket, and the contact form.
 
-**Suggested repository name:** `reading-hub-cypress-e2e`
-
 > **Authorship:** Henrique Schütz wrote the automated UI tests. The Hub de Leitura application used as the system under test belongs to [EBAC-QE](https://github.com/EBAC-QE/hub-de-leitura-integrado).
 
 ## English
@@ -149,8 +147,6 @@ npx cypress run --spec "cypress/e2e/catalogo.cy.js"
 ### Hub de Leitura — Testes de UI com Cypress
 
 Testes automatizados de ponta a ponta para um hub de leitura. Este repositório reúne a aplicação didática Hub de Leitura e uma suíte Cypress que cobre cadastro, catálogo de livros, cesta e formulário de contato.
-
-**Nome sugerido para o repositório:** `reading-hub-cypress-e2e`
 
 > **Autoria:** Henrique Schütz escreveu os testes automatizados de UI. A aplicação Hub de Leitura usada nos testes é da [EBAC-QE](https://github.com/EBAC-QE/hub-de-leitura-integrado).
 
