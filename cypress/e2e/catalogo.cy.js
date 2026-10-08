@@ -6,7 +6,7 @@ describe("Funcionalidade: Catálogo de livros", () => {
     cy.visit("catalog.html");
   });
 
-  it.skip("Deve clicar no botão de adicionar à cesta", () => {
+  it("Deve clicar no botão de adicionar à cesta", () => {
     cy.get(
       ":nth-child(1) > .card > .card-body > .mt-auto > .d-grid > .btn-primary",
     ).click();
@@ -53,7 +53,7 @@ describe("Funcionalidade: Catálogo de livros", () => {
     );
   });
 
-  it.only("Deve clicar no livro e acessar a página de detalhes do livro", () => {
+  it("Deve clicar no livro e acessar a página de detalhes do livro", () => {
     cy.get(".text-dark").eq(12).click();
     cy.url().should("include", "book-details.html?id=7");
     cy.get('#add-to-cart-btn').click();
